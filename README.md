@@ -97,7 +97,7 @@ This integration leverages PAWN's workflows as modular tools that can be called 
 ### 3. Running the Workflow as a Standalone FastAPI or fastMCP Server
 
 You can also run a PAWN workflow as an independent service using FastAPI (or a similar framework like fastMCP). This allows you to deploy the workflow as a RESTful API. For example, using FastAPI:
-![Independent Service](docs/image.png)
+![Independent Service](docs/fast.png)
 
 ```python
 from fastapi import FastAPI
@@ -117,7 +117,7 @@ This will launch a standalone server where you can access the workflow via HTTP.
 
 ## Contributing
 
-Contributions are welcome! Please ensure that your changes are well-documented and include tests when applicable.
+Contributions are welcome! Please ensure that your changes are well-documented and include examples.
 
 ---
 

@@ -20,14 +20,14 @@ for item in os.listdir(pawn_dir):
         extras_require[item] = load_requirements(os.path.join("pawn", item, "requirements.txt"))
 
 setup(
-    name="pawn",
+    name="pawn_ai",
     version="0.0.1",
     description="Precompiled Agents Workflow Network (P.A.W.N.) for building AI-driven, multi-agent crypto systems.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Logarithm Labs",
     author_email="dev@logarithm.fi",
-    url="https://github.com/Logarithm-Labs/Fractal",
+    url="https://github.com/Logarithm-Labs/pawn",
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
@@ -35,7 +35,7 @@ setup(
     python_requires=">=3.12",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )

@@ -1,0 +1,4 @@
+include pawn/goat_evm_workflow/requirements.txt
+include pawn/goat_solana_workflow/requirements.txt
+include pawn/hyperliquid_trader_workflow/requirements.txt
+include pawn/llamafeed_workflow/requirements.txt

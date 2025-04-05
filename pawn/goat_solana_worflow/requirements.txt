@@ -1,0 +1,7 @@
+solana==0.36.6
+langgraph-supervisor==0.0.16
+langchain_openai==0.3.12
+goat-sdk-adapter-langchain==0.1.1
+goat-sdk-wallet-crossmint==0.1.11
+goat-sdk-plugin-spl-token==0.1.4
+goat-sdk-plugin-jupiter==0.1.3

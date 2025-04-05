@@ -1,0 +1,6 @@
+web3==7.10.0
+langgraph-supervisor==0.0.16
+langchain_openai==0.3.12
+goat-sdk-plugin-uniswap==0.1.2
+goat-sdk-adapter-langchain==0.1.1
+goat-sdk-wallet-crossmint==0.1.11

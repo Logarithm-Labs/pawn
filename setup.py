@@ -21,7 +21,7 @@ for item in os.listdir(pawn_dir):
 
 setup(
     name="pawn_ai",
-    version="0.0.1",
+    version="0.0.2",
     description="Precompiled Agents Workflow Network (P.A.W.N.) for building AI-driven, multi-agent crypto systems.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",

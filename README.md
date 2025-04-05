@@ -14,11 +14,11 @@ pip install pawn-ai
 ```
 - **Installation with a specific submodule (e.g., llamafeed_worflow):**
 ```bash
-  pip install pawn-ai[llamafeed_worflow]
+  pip install 'pawn-ai[llamafeed_worflow]'
 ```
 - **Installation with multiple submodules:**
 ```bash
-  pip install pawn-ai[goat_evm_workflow,goat_solana_workflow]
+  pip install 'pawn-ai[goat_evm_workflow,goat_solana_workflow]'
 ```
 The extras allow you to install only the dependencies relevant to the submodules you intend to use.
 

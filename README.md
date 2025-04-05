@@ -1,6 +1,6 @@
-# Precompiled Agents Workflows Network (P.A.W.N. ♙)
+# Precompiled Agents Workflows Network (P.A.W.N. ♟️)
 
-Precompiled Agents Workflows Network (P.A.W.N.) is a multi-package project that provides prebuilt agent workflows for blockchain and crypto agents. PAWN workflows are implemented using [Langgraph Supervisor](https://github.com/langchain-ai/langgraph-supervisor-py), ensuring maximum composability for agent systems. PAWN also allows seamless integration with various agent frameworks, such as [GOAT](https://github.com/goat-sdk/goat/tree/main#%EF%B8%8F-supported-tools-and-frameworks).
+Precompiled Agents Workflows Network is a multi-package project that provides prebuilt agent workflows for blockchain and crypto agents. PAWN workflows are implemented using [Langgraph Supervisor](https://github.com/langchain-ai/langgraph-supervisor-py), ensuring maximum composability for agent systems. PAWN also allows seamless integration with various agent frameworks, such as [GOAT](https://github.com/goat-sdk/goat/tree/main#%EF%B8%8F-supported-tools-and-frameworks).
 
 ---
 
@@ -9,17 +9,17 @@ Precompiled Agents Workflows Network (P.A.W.N.) is a multi-package project that 
 You can install the base package along with only the dependencies you need. For example:
 
 - **Basic installation:**
-
-  pip install pawn
-
+```bash
+pip install pawn
+```
 - **Installation with a specific submodule (e.g., llamafeed_worflow):**
-
+```bash
   pip install pawn[llamafeed_worflow]
-
+```
 - **Installation with multiple submodules:**
-
+```bash
   pip install pawn[goat_evm_workflow,goat_solana_workflow]
-
+```
 The extras allow you to install only the dependencies relevant to the submodules you intend to use.
 
 ---
